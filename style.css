@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --vermelho-corinthians: #C8102E;
+    --vermelho-corinthians: #000000;
     --preto: #000000;
     --branco: #ffffff;
     --cinza-claro: #F2F2F2;
     --cinza-escuro: #333333;
 
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-fundo:#000000;
+    --alto-contraste-texto:#ffffff;
+    --alto-contraste-link:#000000;
 }
 
 body {
@@ -192,4 +192,25 @@ h2 {
 
 .alto-contraste .fundo-galeria {
     background: none;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-black:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-family: Arial, sans-serif;
 }
